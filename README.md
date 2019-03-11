@@ -6,7 +6,7 @@
  **Animation Movie**: ```/resources/animation.mp4``` Reference this video to see the parallax header and bucket hover animations.     
  
 # Task
- 1. Fork this repo to your personal GitHub account and clone it down locally.  
+ 1. Clone this repo to your machine. Create a new repository on your GitHub account and push the cloned project to your new repo. **Do not fork this project.**  
  2. Immediately push a commit with the message "Starting".
  3. Create the HTML, CSS and JS to build out the complete design and animation/interactions from the Marvel App and Animation Example video.  
  4. The site needs to be responsive.  
