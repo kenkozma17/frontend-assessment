@@ -13,6 +13,7 @@
     1. Please make the columns 100% width on mobile.  
     2. Implement any mobile UX tweeks you think would be beneficial. We are leaving moile in your court.  
  5. Once completed, push a commit with the message "Finished".  
+ 6. Send us an email with the link to your repository.
  
 # Design Assets
 1. Open the marvel link https://marvelapp.com/b391580/screen/53968974  
