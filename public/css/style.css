@@ -1,0 +1,210 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container wrapping navigation bar and cover image */
+.navbar-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    margin-bottom: 40px;
+    background-image: url('../images/cover.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container wrapping logo text and nav bar items */
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Setting display to flex */
+.title-left, .nav-items-right {
+    display: flex;
+}
+
+/* Position and styling for logo text on the left */
+.title-left .item {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-top: 60px;
+    margin-left: 135px;
+}
+
+/* Positioning for nav bar items */
+.nav-items-right {
+    margin-right: 90px;
+}
+
+/* Positioning and Styling for nav bar items */
+.nav-items-right .item {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 73px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Setting hamburger menu for mobile */
+.hamburger-menu {
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+/* Centering header text on cover image */
+.header-container, .subheader-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+/* Styling header text */
+.header-container p {
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 88px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+/* Styling and position of subheader text on cover image */
+.subheader-container p {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+    line-height: 48px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+
+/* Setting display to flex on description container */
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+/* Positioning and styling for description text */
+.description-container p {
+    width: 574px;
+    height: 118px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/* Setting container row to flex for 3 columns */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Setting the image and positioning for each column */
+.column {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 300px;
+    flex-basis: 100%;
+    margin: 10px;
+    background-image: url('../images/rectangle.png');
+}
+
+/* Setting the grey panel on bottom of image */
+.panel {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background: #EAEAEA;
+    bottom: -80px;
+}
+
+/* Set transition speed on panel */
+.column:hover .panel{
+    transition: 0.5s;
+    bottom: 0;
+} 
+
+/* Set transition for panel text */
+.column:hover .panel-text {
+    transition: 0.5s;
+    bottom: 150px;
+}
+
+/* Position for panel subheader */
+.panel h3 {
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+.panel-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: -80px;
+    margin-left: 25%;
+}
+
+.svg-container {
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right; 
+}
+
+.svg-container img {
+    padding: 0 10px 0 10px;
+}
+
+/* Footer container positioning */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #F3F3F3;
+}
+
+/* Media Query for 3 columns */
+@media screen and (min-width: 800px) {
+    .column {
+        flex: 1;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .nav-items-right {
+        display: none;
+    }
+
+
+}
